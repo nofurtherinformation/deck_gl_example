@@ -57,10 +57,12 @@ function App() {
         layers={layers}  
         style={{width:'100%', height:"100%"}}
       >
-        <StaticMap   
+        <StaticMap 
           mapboxApiAccessToken={
              'pk.eyJ1Ijoic3R1YXJ0LWx5bm4iLCJhIjoiY2ttNDZsdTVuMDFrazJ2b2Z6bmV0dDlpZiJ9.VHg-mUZEYo4shwH4s_QnKA'
           }
+          width="100%"
+          height="100%"
         />
       </DeckGL>
       </div>
