@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/deck_gl_example%20/static/css/main.ddfbcf82.chunk.css",
+    "main.js": "/deck_gl_example%20/static/js/main.9595ea72.chunk.js",
+    "main.js.map": "/deck_gl_example%20/static/js/main.9595ea72.chunk.js.map",
+    "runtime-main.js": "/deck_gl_example%20/static/js/runtime-main.abf1c177.js",
+    "runtime-main.js.map": "/deck_gl_example%20/static/js/runtime-main.abf1c177.js.map",
+    "static/js/2.90d80893.chunk.js": "/deck_gl_example%20/static/js/2.90d80893.chunk.js",
+    "static/js/2.90d80893.chunk.js.map": "/deck_gl_example%20/static/js/2.90d80893.chunk.js.map",
+    "static/js/3.fb46ce2b.chunk.js": "/deck_gl_example%20/static/js/3.fb46ce2b.chunk.js",
+    "static/js/3.fb46ce2b.chunk.js.map": "/deck_gl_example%20/static/js/3.fb46ce2b.chunk.js.map",
+    "index.html": "/deck_gl_example%20/index.html",
+    "static/css/main.ddfbcf82.chunk.css.map": "/deck_gl_example%20/static/css/main.ddfbcf82.chunk.css.map",
+    "static/js/2.90d80893.chunk.js.LICENSE.txt": "/deck_gl_example%20/static/js/2.90d80893.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.abf1c177.js",
+    "static/js/2.90d80893.chunk.js",
+    "static/css/main.ddfbcf82.chunk.css",
+    "static/js/main.9595ea72.chunk.js"
+  ]
+}
