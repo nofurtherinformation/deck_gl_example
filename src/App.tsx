@@ -14,8 +14,6 @@ const INITIAL_VIEW_STATE = {
   bearing: 0,
 };
 
-
-
 const layersToDeckGL = (layers: any[])=>{
   return layers.filter(l=>l).map(l=>(new GeoJsonLayer({
       id:l.name,
@@ -33,13 +31,13 @@ function App() {
 
   const layers = layersToDeckGL([tracts,nta]) 
   useEffect(()=>{
-    fetch("/layers/2010_census_tracts.geojson")
+    fetch(`${window.location}/layers/2010_census_tracts.geojson`)
       .then(r=>r.json())
       .then(result => setTracts({name:'census_tracts', geojson:result}))
   },[])
 
   useEffect(()=>{
-    fetch("/layers/nta.geojson")
+    fetch(`${window.location}/layers/nta.geojson`)
       .then(r=>r.json())
       .then(result => setNta({name:'nta', geojson:result}))
   },[])
